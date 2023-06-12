@@ -1,0 +1,13 @@
+<div class="container text-align">
+
+<h2 class="h3">The grid was : <%= @grid %></h2>
+<br>
+<p class="h3">You found the word : <%= @word %></p>
+<br>
+<p>Your score is : <%= @result[:score] %></p>
+<p class="alert alert-success"><%= @result[:message] %></p>
+
+<%= @user_score %>
+
+<%= link_to "New Game", new_path %>
+</div>
